@@ -77,11 +77,11 @@ export function Post ({author, publishedAt, content}) {
             </div>
 
             <form onSubmit={handleCreateNewComment} className={styles.commentForm}>
-                <strong>Deixe seu feedback</strong>
+                <strong>Leave your feedback</strong>
 
                 <textarea 
                     name='comment'
-                    placeholder='Deixe um comentário'
+                    placeholder='Leave a comment'
                     value={newCommentText}
                     onChange={handleNewCommentChange}
                     onInvalid={handleNewCommentInvalid}

@@ -15,8 +15,8 @@ const posts = [
       role: 'Technical Support Engineer'
     },
     content: [
-      {type: 'paragraph', content: 'Fala galeraa 👋'},
-      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
+      {type: 'paragraph', content: 'Hey folks! 👋'},
+      {type: 'paragraph', content: "[EN] Here's just an idea of a post. To learn more about my project and its features, feel free to leave your feedback, remove comments, or give likes to comments. Enjoy!  🚀"},
       {type: 'link', content: "👉{' '}jane.design/doctorcare"},
     ],
     publishedAt: new Date('2024-05-11 20:00:00'),
@@ -24,13 +24,13 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: 'https://github.com/gustavoharff.png',
-      name: 'Gustavo Harff',
-      role: 'Web Developer'
+      avatarUrl: 'https://github.com/AnaPaulaTamanchieviez.png',
+      name: 'Ana Paula Tamanchieviez',
+      role: 'Web Developer Student'
     },
     content: [
       {type: 'paragraph', content: 'Fala galeraa 👋'},
-      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
+      {type: 'paragraph', content: '[PT] Aqui está apenas uma ideia de postagem. Para saber mais sobre meu projeto e seus recursos, fique à vontade para deixar seu feedback, remover comentários ou curtir comentários. Aproveite! 🚀'},
       {type: 'link', content: "👉{' '}jane.design/doctorcare"},
     ],
     publishedAt: new Date('2024-05-10 20:00:00'),
